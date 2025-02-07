@@ -14,8 +14,8 @@
 		"test": "mocha"
 	},
 	"files": [
-		"src/**/*.js",
-		"src/**/*.d.ts"
+		"lib/**/*.js",
+		"lib/**/*.d.ts"
 	],
 	"author": {
 		"name": "Borewit",
