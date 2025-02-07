@@ -22,7 +22,7 @@
 		"url": "https://github.com/Borewit"
 	},
 	"license": "MIT",
-	"repository": "https://github.com/Borewit/await-queue",
+	"repository": "https://github.com/Borewit/async-queue",
 	"packageManager": "yarn@4.6.0",
 	"devDependencies": {
 		"@types/chai": "^5.0.1",
