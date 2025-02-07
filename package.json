@@ -1,0 +1,49 @@
+{
+	"name": "@borewit/async-queue",
+	"version": "0.1.0",
+	"description": "async iterable queue",
+	"type": "module",
+	"types": "./lib/queue/d.ts",
+	"exports": {
+		".": "./lib/queue.js"
+	},
+	"scripts": {
+		"clean": "del-cli 'lib/**/*.js' 'lib/**/*.js.map' 'lib/**/*.d.ts' 'test/**/*.js' 'test/**/*.js.map' 'test/**/*.d.ts'",
+		"compile": "tsc -p lib && tsc -p test",
+		"build": "yarn run clean && yarn run compile",
+		"test": "mocha"
+	},
+	"files": [
+		"src/**/*.js",
+		"src/**/*.d.ts"
+	],
+	"author": {
+		"name": "Borewit",
+		"url": "https://github.com/Borewit"
+	},
+	"license": "MIT",
+	"repository": "https://github.com/Borewit/await-queue",
+	"packageManager": "yarn@4.6.0",
+	"devDependencies": {
+		"@types/chai": "^5.0.1",
+		"@types/mocha": "^10.0.10",
+		"chai": "^5.1.2",
+		"del-cli": "^6.0.0",
+		"mocha": "^11.1.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	},
+	"keywords": [
+		"async",
+		"queue",
+		"await",
+		"iterable",
+		"FIFO",
+		"event-driven",
+		"asynchronous",
+		"TypeScript",
+		"event-queue",
+		"task-queue",
+		"message-queue"
+	]
+}
