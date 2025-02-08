@@ -1,4 +1,6 @@
 [![Node.js CI](https://github.com/Borewit/await-queue/actions/workflows/ci.yml/badge.svg)](https://github.com/Borewit/await-queue/actions/workflows/ci.yml)
+[![NPM version](https://badge.fury.io/js/@borewit%2Fasync-queue.svg)](https://npmjs.org/package/@borewit/async-queue)
+[![npm downloads](http://img.shields.io/npm/dm/@borewit/async-queue.svg)](https://npmcharts.com/compare/@borewit/async-queue?start=356)
 
 # @borewit/async-queue
 
